@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+body{
+text-align: left;
+font-family: arial,helvetica,sans-serif;
+font-size: 0.7em;
+background-color: #FFFFFF;
+color: #666666;
+padding: 0;
+    margin: 0;
+}
+
+#main-container{
+    width: 778px;
+    text-align: left;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#main-container2{
+    width: 778px;
+    text-align: left;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#blue-line{
+    height: 1px;
+    width: 1px;
+    background-color: black;
+    background-repeat: repeat-x;
+}
+
+#blue-tall{
+    min-width: 40%;
+    height: 17px;
+    width: 1px;
+    background-color: black;
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#blue-short{
+    min-width: 60%;
+    height: 1px;
+    width: 1px;
+    background-color: black;
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.confirmDeleteLink{
+    display: none;
+}
+
+.test{
+    float: left;
+    width: 25%;
+    white-space:pre-wrap;
+}
+
+.test2{
+    float: left;
+    width: 25%;
+}
