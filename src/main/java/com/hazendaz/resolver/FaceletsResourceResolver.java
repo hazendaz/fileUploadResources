@@ -10,7 +10,7 @@ public class FaceletsResourceResolver extends ResourceResolver {
     private final String           basePath;
 
     /**
-     * Facelets REsource Resolver constructor
+     * Facelets Resource Resolver constructor
      * 
      * @param resourceResolver
      *            resourceResolver for resource location
