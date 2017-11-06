@@ -45,7 +45,7 @@ public class Bean {
      *            object
      */
     public void validateFile(final FacesContext ctx, final UIComponent comp, final Object value) {
-        final List<FacesMessage> msgs = new ArrayList<FacesMessage>();
+        final List<FacesMessage> msgs = new ArrayList<>();
         final Part part = (Part) value;
         if (part.getSize() > 1024) {
             msgs.add(new FacesMessage("file too big"));
