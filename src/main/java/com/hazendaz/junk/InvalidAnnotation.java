@@ -1,8 +1,8 @@
 package com.hazendaz.junk;
 
-// import javax.validation.constraints.Past;
-
 import lombok.Data;
+
+// import javax.validation.constraints.Past;
 
 @Data
 public class InvalidAnnotation {
