@@ -7,11 +7,11 @@ import javax.faces.view.facelets.ResourceResolver;
 public class FaceletsResourceResolver extends ResourceResolver {
 
     private final ResourceResolver parent;
-    private final String           basePath;
+    private final String basePath;
 
     /**
      * Facelets Resource Resolver constructor
-     * 
+     *
      * @param resourceResolver
      *            resourceResolver for resource location
      */
@@ -23,7 +23,7 @@ public class FaceletsResourceResolver extends ResourceResolver {
 
     /**
      * Resolve URL
-     * 
+     *
      * @param path
      *            path to resource
      * @return URL of resource

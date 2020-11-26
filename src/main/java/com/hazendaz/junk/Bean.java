@@ -19,7 +19,7 @@ import lombok.Data;
 @Named
 @ViewScoped
 public class Bean {
-    private Part   file;
+    private Part file;
     private String fileContent;
 
     /**
@@ -36,7 +36,7 @@ public class Bean {
 
     /**
      * Validate file upload using standard jsf
-     * 
+     *
      * @param ctx
      *            faces context
      * @param comp
