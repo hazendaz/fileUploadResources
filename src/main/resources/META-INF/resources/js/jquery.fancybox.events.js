@@ -30,7 +30,7 @@ $(document).ready(function() {
         $.fancybox({
             modal : true,
             content : "<div style=\"width:220px;height:80px;\">"
-                    + "<b>" + msg + "</b>" 
+                    + "<b>" + msg + "</b>"
                     + "</div>"
                     + "<div style=\"text-align:center;margin-top:20px;\">"
                     + "<input id=\"fancyConfirm_ok\" style=\"margin:3px;padding:1px;width:75px;height:20px;\" type=\"submit\" value=\"Ok\">"
@@ -38,16 +38,16 @@ $(document).ready(function() {
                     + "</div>",
             afterShow : function() {
                 $("#fancyConfirm_cancel").click(function() {
-                    ret = false; 
+                    ret = false;
                     $.fancybox.close();
                 });
                 $("#fancyConfirm_ok").click(function() {
-                    ret = true; 
+                    ret = true;
                     $.fancybox.close();
                 });
             },
             afterClose : function() {
-                if ($.isFunction)                   
+                if ($.isFunction)
                     { callback.call(this, ret);}
             }
         });

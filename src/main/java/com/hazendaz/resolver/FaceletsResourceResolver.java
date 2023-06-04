@@ -39,6 +39,7 @@ public class FaceletsResourceResolver extends ResourceResolver {
      *
      * @param path
      *            path to resource
+     *
      * @return URL of resource
      */
     @Override
