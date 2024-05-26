@@ -1,7 +1,7 @@
 /*
  * fileUploadResources (https://github.com/hazendaz/fileUploadResources)
  *
- * Copyright 2009-2023 Hazendaz.
+ * Copyright 2009-2024 Hazendaz.
  *
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of The Apache Software License,
@@ -13,9 +13,9 @@
  */
 package com.hazendaz.resolver;
 
-import java.net.URL;
+import jakarta.faces.view.facelets.ResourceResolver;
 
-import javax.faces.view.facelets.ResourceResolver;
+import java.net.URL;
 
 public class FaceletsResourceResolver extends ResourceResolver {
 
