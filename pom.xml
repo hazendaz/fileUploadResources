@@ -34,6 +34,13 @@
     <url>http://localhost:8080/fileupload/</url>
     <inceptionYear>2009</inceptionYear>
 
+    <properties>
+        <java.version>11</java.version>
+        <java.release.version>11</java.release.version>
+        <java.test.version>11</java.test.version>
+        <java.test.release.version>11</java.test.release.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.glassfish</groupId>
