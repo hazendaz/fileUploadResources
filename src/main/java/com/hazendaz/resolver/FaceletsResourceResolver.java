@@ -17,6 +17,7 @@ import jakarta.faces.view.facelets.ResourceResolver;
 
 import java.net.URL;
 
+// TODO Deprecated, use 'jakarta.faces.application.ResourceHandler' instead
 public class FaceletsResourceResolver extends ResourceResolver {
 
     private final ResourceResolver parent;

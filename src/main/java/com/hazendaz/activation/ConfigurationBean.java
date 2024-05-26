@@ -17,6 +17,7 @@ import static jakarta.faces.annotation.FacesConfig.Version.JSF_2_3;
 
 import jakarta.faces.annotation.FacesConfig;
 
+// TODO This is deprecated since version 4, just delete it as it does nothing now, cdi is only way jsf works now
 @FacesConfig(
         // Activates CDI build-in beans
         version = JSF_2_3)
