@@ -25,9 +25,9 @@
         <relativePath />
     </parent>
 
+    <groupId>com.github.hazendaz</groupId>
     <artifactId>fileUploadResources</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
 
     <name>fileUploadResources</name>
     <description>Test project for fileupload</description>
