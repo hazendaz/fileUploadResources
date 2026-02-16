@@ -34,6 +34,28 @@
     <url>http://localhost:8080/fileupload/</url>
     <inceptionYear>2009</inceptionYear>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:ssh://git@github.com/hazendaz/fileUploadResources.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/hazendaz/fileUploadResources.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/hazendaz/fileUploadResources</url>
+    </scm>
+    <distributionManagement>
+        <site>
+            <id>gh-pages-scm</id>
+            <name>File Upload Resources GitHub Pages</name>
+            <url>scm:git:ssh://git@github.com/hazendaz/fileUploadResources.git</url>
+        </site>
+    </distributionManagement>
+
     <properties>
         <java.version>21</java.version>
         <java.release.version>21</java.release.version>
