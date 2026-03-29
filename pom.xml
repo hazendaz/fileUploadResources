@@ -56,6 +56,24 @@
         <java.test.release.version>21</java.test.release.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <!-- Force com.fasterxml.classmate to a single version -->
+            <dependency>
+                <groupId>com.fasterxml</groupId>
+                <artifactId>classmate</artifactId>
+                <version>1.7.3</version>
+            </dependency>
+    
+            <!-- Force jboss-logging to a single version -->
+            <dependency>
+                <groupId>org.jboss.logging</groupId>
+                <artifactId>jboss-logging</artifactId>
+                <version>3.6.3.Final</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    
     <dependencies>
         <dependency>
             <groupId>org.glassfish</groupId>
