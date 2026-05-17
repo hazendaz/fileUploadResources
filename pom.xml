@@ -64,7 +64,7 @@
                 <artifactId>classmate</artifactId>
                 <version>1.7.3</version>
             </dependency>
-    
+
             <!-- Force jboss-logging to a single version -->
             <dependency>
                 <groupId>org.jboss.logging</groupId>
@@ -73,7 +73,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.glassfish</groupId>
