@@ -37,7 +37,7 @@
 
                 <h:outputText value="User Name:" />
                 <h:inputText value="#{logonBean.userName}"
-                    valueChangeListener="${myValueChangeListener.processValueChange}" />
+                    valueChangeListener="#{myValueChangeListener.processValueChange}" />
                 <br />
                 <h:commandButton id="logon" value="Logon"
                     action="#{logonBean.logon}" />
